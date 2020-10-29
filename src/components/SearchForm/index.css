@@ -1,0 +1,36 @@
+.search-form {
+  padding: 20px;
+}
+.search-input {
+  display: block;
+  padding: 5px;
+  height: 24px;
+  text-align: center;
+  margin: 0 auto;
+  border: 2px solid #b4b4b4;
+  border-radius: 4%;
+  color: #949494;
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+.search-input:focus {
+  outline: none;
+}
+.search-btn {
+  display: block;
+  margin: 0 auto;
+  text-transform: uppercase;
+  font-weight: 700;
+  text-align: center;
+  border: none;
+  background-color: transparent;
+  padding: 10px;
+  color: rgb(0, 0, 255);
+}
+.search-btn:focus {
+  outline: none;
+}
+
+.invalid {
+  border: 2px solid red;
+}
